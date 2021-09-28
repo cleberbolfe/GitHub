@@ -1,0 +1,3 @@
+D:\GitHub\HOW III\obj\Debug\HOW III.csproj.AssemblyReference.cache
+D:\GitHub\HOW III\obj\Debug\HOW_III.Confirme.resources
+D:\GitHub\HOW III\obj\Debug\HOW III.csproj.GenerateResource.cache

@@ -1,0 +1,3 @@
+D:\GitHub\NovaLocadora\obj\Debug\NovaLocadora.csproj.AssemblyReference.cache
+D:\GitHub\NovaLocadora\obj\Debug\NovaLocadora.FormLocadora.resources
+D:\GitHub\NovaLocadora\obj\Debug\NovaLocadora.csproj.GenerateResource.cache

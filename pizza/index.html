@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Prof Alex Luciano Roesler Rese">
+    <meta name="description"
+        content="Desenvolvido no curso de ADS disciplina de Responsive Web Development, com a colaboração dos alunos: ALEXANDRE FEDRIZZI; ALINE ROCHA; ANDREAS NOCON GRUDTNER; ANNA LUIZA ANDRIANI; ANNE BEATRIZ CORREA PIRES; CAIO DUARTE MILANEZ VIEIRA; CAMILA MANCK GASPAR COSTA; CLEBER ANDREY BOLFE; DAVI FELIPE BORGES; DAVID BERTOLINO JUREK; DEISE FLAVIANA ANDRADE DOS SANTOS; ELUAN DE LIMA SOMENSI; EMERSON TRINDADE SOARES FERREIRA; ENZA MACHADO;ENZO GIACOMELLI; FABIANO FERREIRA MATTOSO; FELIPE MULLER MACHADO; FERNANDA KARGEL; GABRIEL DE FARIA; GABRIEL FERREIRA; GABRIEL NUNES; GUILHERME HENRIQUE CITTADELA; GUSTAVO LUIZ CITTADELA; GUSTAVO MAURICI; IAN ROBERTO CEREZA SILVA; IGOR ROICHMAN GOUVEIA; JACKSON FERREIRA JAKS; JAIR RIBEIRO DA SILVA JUNIOR; JEAN ALNIOCE SAMUEL SAINT SURIN; GERSON PINHEIRO FILHO; JHONATHAN CHRISTIAN ADRIANO; JOÃO MATHEUS GARDIM DOS SANTOS; JOÃO PESSOA MACHADO NETO; KIMBERLLIN RODRIGUES MARTINS; KLÉBER CRIVILLATTI DE ANDRADE; LEONARDO BOENO FAGUNDES; LUCAS CAMARGO MACIEL; LUCAS RAPHAEL DOS REIS; LUIS ELIAS OLIMPIO RAMOS; LUIZ FERNANDO RIBEIRO DOS SANTOS; MARCELO BARBACOVI; MARCOS ALBERTO REBELO; MARCOS CESAR DA ROSA; MARIA FERNANDA MOREIRA SABINO DE OLIVEIRA SANGALLI; MATEUS DA SILVA SANSON PICOLOTO; MATHEUS FLORENCIO DA SILVA; MATHEUS MANOEL DA LUZ; MURIEL PEREIRA; NICKOLAS SIMÕES CERRI MARQUES LIMA; NICOLAS DE OLIVEIRA ZEFERINO; PAULO HENRIQUE AVERBECK; PAULO HENRIQUE SILVA; PEDRO ANDRES FONSCECA VEIGA; PEDRO HENRIQUE ALVES DE SOUZA; PEDRO HENRIQUE BENNESBY DOS SANTOS; RAFAEL ANTUNES DA COSTA; ROMULO GOELZER PORTOLANN; THAIS COSTA DE CARVALHO; TIAGO BERLANDA; TÂNIA MICHEL PEREIRA;">
+    <meta name="keywords" content="sites, web, desenvolvimento">
+
+    <link rel="icon"
+        href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2014-12-23/59db53915fd7260b16d5a24d737c70a6.ico"
+        type="image/ico" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza</title>
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Unipizza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#nos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destaques">Destaques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    class="d-block w-100" alt="Servindo um pedaço de pizza">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Altíssima Qualidade</h5>
+                    <p>Com os melhores ingredientes do mercado, damos ao nossos clientes uma pizza de extrema qualidade.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Variedade</h5>
+                    <p>Com uma enorme quantidade de variedades, damos aos clientes pizzas nacionais e internacionais.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Vamos comer</h5>
+                    <p>Preparado para conhecer a verdadeira felicidade? É isso mesmo! Vamos lá?</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+    <!-- quem somos -->
+    <div class="container mt-5 mb-5" id="nos">
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img class="img-fluid"
+                        src="https://images.pexels.com/photos/1082343/pexels-photo-1082343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="Pizza ao forno">
+                </div>
+                <div class="col-sm-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Quem somos</h5>
+                        <p class="card-text">A <b>pizzaria</b> UniPizza vem produzindo as melhores <b>pizzas</b> desde
+                            2021, sempre
+                            trazendo excelente qualidade, inesquecíveis sabores e um ótimo atendimento.</p>
+                        <p>Uma empresa focada na satisfação do seu paladar.</p>
+                        <p class="card-text"><small class="text-muted">Atualizado pela equipe UniPiZZa em
+                                25/05/2021</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destaques -->
+    <div id="destaques">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src=" https://images.pexels.com/photos/2471171/pexels-photo-2471171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            class="card-img-top" alt="Pizza de mussarela">
+                        <div class="card-body">
+                            <h5 class="card-title">Marguerita especial</h5>
+                            <p class="card-text">A tradicional marguerita com um toque especial da mussarela de búfala.
+                            </p>
+                            <a href="https://github.com/thacostaaa" target="_blank" class="btn btn-danger">THAIS COSTA
+                                DE CARVALHO.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/845811/pexels-photo-845811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                            class="card-img-top" alt="Pizza portuguesa">
+                        <div class="card-body">
+                            <h5 class="card-title">Portuguesa</h5>
+                            <p class="card-text">Preparada com a deliciosa combinação de ingredientes como ervilha,
+                                azeitona, molho de tomate, cebola, ovos, queijo, linguiça calabresa e orégano, a Pizza
+                                Portuguesa é sucesso em qualquer mesa. </p>
+                            <a href="https://github.com/guicittadela" target="_blank" class="btn btn-danger">GUILHERME
+                                HENRIQUE CITTADELA</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="https://static.clubedaanamariabraga.com.br/wp-content/uploads/2019/03/pizza-de-calabresa-e-bacon-1024x768.jpg"
+                            class="card-img-top" alt="Pizza de Bacon">
+                        <div class="card-body">
+                            <h5 class="card-title">Bacon</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="https://github.com/Eluan19" target="_blank" class="btn btn-danger">ELUAN DE LIMA
+                                SOMENSI.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Depoimentos -->
+    <div id="depoimentos">
+        <div class="container p-5">
+            <div class="card mt-3">
+                <div class="card-header">
+                    LUIS ELIAS OLIMPIO RAMOS
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Somos fãs aqui em casa! A massa é maravilhosa, e os recheios são deliciosos e generosos"
+                            "O atendimento é excelente! A pizza então, nem se fala. Se pudesse dá mais estrelas eu
+                            daria..
+                        </p>
+                        <footer class="blockquote-footer">São alguns dos comentários de <cite title="Source Title"><a
+                                    target="_blank" href="https://github.com/yYat0">LUIS ELIAS OLIMPIO RAMOS</a></cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-header">
+                    JOÃO MATHEUS GARDIM DOS SANTOS
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>"O atendimento é excelente! A pizza então, nem se fala. Se pudesse dá mais estrelas eu
+                            daria.."</p>
+                        <footer class="blockquote-footer"> <cite title="Source Title">Sr. <a target="_blank"
+                                    href="https://github.com/jmgardim">JOÃO MATHEUS GARDIM DOS SANTOS</a></cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-header">
+                    ROMULO GOELZER PORTOLANN
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Festa da pizza, dia 03/05/2014, tudo tão perfeitooooo , atendimento excelente e pizzas mais
+                            que saborosas... Estão de parabéns!!!!!!" Patricia Alo Prada</p>
+                        <footer class="blockquote-footer">Grande <cite title="Source Title"><a target="_blank"
+                                    href="https://github.com/romulo-gpmalkiewiez/">ROMULO GOELZER PORTOLANN</a></cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contato -->
+    <footer id="contato" class=" pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.60185681734!2d-48.66651748529373!3d-26.91612809982872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8cb8842138761%3A0x648dbc8d0ef634c1!2sUniversity%20of%20the%20Itaja%C3%AD%20Valley%2C%20Itaja%C3%AD%20Campus!5e0!3m2!1sen!2sbr!4v1621984925274!5m2!1sen!2sbr"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-sm-4 p-3">
+                    <h3>Contatos da UniPiZZa</h3>
+                    <p>Fone: <b>(47) 9 9929-9852</b>
+                    </p>
+                    <p>Fone: <b>(47) 9 9818-2022</b>
+                    </p>
+                    <p>Fone: <b>(47) 9 3258-2156</b>
+                    </p>
+                    <p>Endereço: R. Uruguai, 458 - Centro, Itajaí - SC, 88302-901</p>
+
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-fluid" src="https://ressources.regionsjob.com/seo/ObsJob/pizzaiolo.jpg"
+                        alt="moça segurnado uma pizza">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

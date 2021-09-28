@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarefasInsert", "TarefasInsert\TarefasInsert.csproj", "{63B9A8FD-0937-4F57-9343-3413AC2CFDDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63B9A8FD-0937-4F57-9343-3413AC2CFDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B9A8FD-0937-4F57-9343-3413AC2CFDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B9A8FD-0937-4F57-9343-3413AC2CFDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B9A8FD-0937-4F57-9343-3413AC2CFDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FC9E468-C8F0-462F-A723-8F929A77BEF6}
+	EndGlobalSection
+EndGlobal

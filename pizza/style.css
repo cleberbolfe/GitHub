@@ -1,0 +1,15 @@
+p b{
+    color: #c41515;
+}
+
+#destaques{
+    background-color: #c41515;
+}
+
+#contato{
+    background-color: #575757;
+    color: white;
+}
+#contato div p b{
+    color:#FA6135;
+}
